@@ -1,0 +1,12 @@
+POST http://127.0.0.1:3000/teste/criar
+
+//GET http://127.0.0.1:3000/teste/listar
+
+POST http://127.0.0.1:3000/produto HTTP/1.1
+content-type: application/json
+
+{
+    "nome": "teclado",
+    "preco": 50,
+    "descricao": "blz"
+}
